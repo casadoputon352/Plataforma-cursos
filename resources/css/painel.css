@@ -1,0 +1,73 @@
+.main {
+    min-height: 100vh;
+    padding: 3rem 0;
+}
+
+
+.form-box {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    color: #fafafa;
+
+}
+
+.form-box form select {
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+
+.form-box form label {
+    color: #b9ffb9;
+}
+
+.form-box form input {
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.btn {
+    align-self: center;
+    width: 80%;
+    cursor: pointer;
+}
+
+textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btns .btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btns .btn:hover {
+    transform: scale(1.1);
+}
+
+.btns a {
+    color: #b9ffb9;
+}
